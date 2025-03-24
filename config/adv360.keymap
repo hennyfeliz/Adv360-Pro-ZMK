@@ -25,29 +25,8 @@
         nvim_save: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp COLON &kp W &kp RET>;
+            bindings = <&kp COLON &kp W &kp EXCLAMATION &kp RET>;
             label = "NEW_MACRO";
-        };
-
-        w2: w2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LT &kp GT &kp LT &kp FSLH &kp GT>;
-            label = "W2";
-        };
-
-        w3: w3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LT &kp SPACE &kp FSLH &kp GT>;
-            label = "W3";
-        };
-
-        w4: w4 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp X &kp P &kp O &kp R &kp T &kp SPACE &kp D &kp E &kp F &kp A &kp U &kp L &kp T &kp SPACE &kp SPACE &kp EQUAL &kp SPACE &kp LPAR &kp RPAR &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp RBKT &kp RET &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp RET &kp RBRC>;
-            label = "W4";
         };
     };
 
